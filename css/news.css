@@ -188,7 +188,17 @@ h3 {
     line-height: 1;
     text-decoration: none;
 }
-
+.button__link a{
+    padding: 10px 25px;
+    background-color: #00a650;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.button__link:hover {
+    opacity: .5;
+}
 .nav__links a:hover {
     color: #00a650;
 }
